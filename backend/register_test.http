@@ -1,0 +1,40 @@
+### Register a new patient
+POST http://127.0.0.1:5000/register
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "12345",
+    "role": "patient"
+}
+POST http://127.0.0.1:5000/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "12345",
+  "role": "patient"
+}
+
+
+### Register a new doctor
+POST http://127.0.0.1:5000/register
+Content-Type: application/json
+
+{
+    "name": "Dr. Smith",
+    "email": "drsmith@example.com",
+    "password": "12345",
+    "role": "doctor"
+}
+
+### Login as patient
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "email": "john@example.com",
+    "password": "12345"
+}

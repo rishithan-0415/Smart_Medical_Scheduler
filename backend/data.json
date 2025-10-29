@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "username": "Rishitha",
+            "password": "0415",
+            "email": "rishithangowda3@gmail.com"
+        },
+        {
+            "name": null,
+            "email": "rishithangowda3@gami.Com",
+            "password": "1100"
+        },
+        {
+            "name": null,
+            "email": "rishithangowda3@gami.Com",
+            "password": "1100"
+        },
+        {
+            "username": "Ram",
+            "password": "0011"
+        }
+    ],
+    "appointments": [
+        {
+            "username": "Shivkumar M",
+            "doctor": "sharmila",
+            "date": "2025-10-30",
+            "time": "20:09",
+            "reason": "cold"
+        },
+        {
+            "username": "suhas",
+            "doctor": "sharmila",
+            "date": "2025-10-30",
+            "time": "09:00",
+            "reason": "cough"
+        }
+    ]
+}
